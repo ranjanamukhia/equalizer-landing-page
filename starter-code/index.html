@@ -5,55 +5,107 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet"  href="../starter-code/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Equalizer landing page</title>
 </head>
 <body>
-  <div class="container">
+  <div class="parent-container">
   <header>
+    <div class="hero-container">
     <a href="#">
       <img alt="equalizer-logo" src="../assets/logo.svg">
    </a>
+   
    <h1>
     We make your music sound extraordinary.
    </h1>
-   <p>
+   <p class="hero-text">
     A system audio equalizer specifically designed for Android and iOS. Freely tune the 
     way your music sounds with a professional grade parametric EQ & volume mixer. Control 
     bass, mids, treble, gain control, reverb, and more!
   
    </p>
+  </div>
+   <div class="background-shaded-container">
+    <picture>
+      <source media="(min-width:1000px)" srcset="../assets/bg-main-desktop.png">
+      <source media="(min-width:700px)" srcset="../assets/bg-main-tablet.png">
+      <img src="../assets/bg-main-mobile.png" alt="shaded-background">
+    </picture>
+  </div> 
+  <div class="pattern-1-container">
+    <picture>
+      <source media="(min-width:1000px)" srcset="../assets/bg-pattern-1.svg">
+      <source media="(min-width:700px)" srcset="../assets/bg-pattern-1.svg">
+      <img src="../assets/bg-pattern-1.svg" alt="pattern-1">
+    </picture>
+  </div>
   </header>
   <main>
-    <div class="background_with_mobile_and_app">
+    <div class="pattern-2-container">
       <picture>
-        <source media="(min-width:1000px)" srcset="../assets/bg-main-desktop.png">
-        <source media="(min-width:700px)" srcset="../assets/bg-main-tablet.png">
-        <img src="../assets/bg-pattern-1.svg" alt="shaded-background">
+        <source media="(min-width:1000px)" srcset="../assets/bg-pattern-2.svg">
+        <source media="(min-width:700px)" srcset="../assets/bg-pattern-2.svg">
+        <img src="../assets/bg-pattern-2.svg" alt="pattern-2">
       </picture>
     </div>
+    <div class="illustration-app-container">
+      <picture>
+        <source media="(min-width:1000px)" srcset="../assets/illustration-app.png">
+        <source media="(min-width:700px)" srcset="../assets/illustration-app.png">
+        <img src="../assets/illustration-app.png" alt="illustration-app">
+      </picture>
+    </div>
+    <div class="premium-eq-main-container">
+      <div class="premium-eq-container">
+      <h1> Premium EQ</h1>
+      <p class="hero-text">
+        Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take 
+        your listening experience to a whole new level and access all our incredible features!
+      </p>
+      <p class="price"><span style="font-weight: 700; font-size:50px;">$4</span>/ month</p>
+      <button><img src="../assets/icon-apple.svg">  iOS Download</button>
+      <button><img src="../assets/icon-android.svg">  Android Download</button>
+    </div>
+
+    </div>
+    <footer>
+      <a href="#">
+        <img alt="equalizer-logo" src="../assets/logo.svg">
+     </a>
+     <p class="hero-text">
+      All rights reserved © Equalizer 2021
+      Have any problems? Contact us via social media or email us at equalizer@example.com
+     </p>
+     <img src="../assets/icon-facebook.svg">
+     <img src="../assets/icon-instagram.svg">
+  
+     <img src="../assets/icon-twitter.svg">
+  
+  
+    </footer>
 
   </main>
-  <footer>
 
-  </footer>
 </div>
 
   
 
 
-  Premium EQ
+ 
 
-  Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take 
-  your listening experience to a whole new level and access all our incredible features!
+ 
 
-  $4 / month
+  
 
-  iOS Download
-  Android Download
 
-  All rights reserved © Equalizer 2021
-  Have any problems? Contact us via social media or email us at equalizer@example.com
+ 
+
+ 
 
 </body>
 </html>
