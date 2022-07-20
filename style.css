@@ -30,6 +30,7 @@ header{
     margin-top: 2rem;
     line-height: 1.5rem;
     font-size: 0.8rem;
+    margin-bottom: 10rem;
 }
 
 .background-shaded-container img{
@@ -47,20 +48,25 @@ header{
 main{
     max-width:24rem;
     display: grid;
+    grid-template-columns:4rem 16rem 4rem ;
+    grid-auto-rows: 5rem;
+    
    
 }
 .pattern-2-container{
     max-width:24rem;
-    grid-template-columns: repeat(2,fr);
-
     background-color: black;
+    grid-column: 1/4;
+    grid-row: 1/7;
 }
 .illustration-app-container{
     max-width:20rem;
-    grid-template-columns: 1fr;
+    grid-column: 2/3;
+    grid-row:1/5 ;
+   
 
 }
 .illustration-app-container img{
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
 }
