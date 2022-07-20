@@ -11,96 +11,56 @@ body{
    
 }
 
-h1{
-    font-size: 1.7rem;
-    font-weight: 700;
-    line-height: 2.5rem;
+header{
+    max-width:24rem ;
 }
 
 .hero-container{
-    max-width: 90%;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    
-
-}
-.hero-container img{
     margin-top: 1rem;
+    margin-left: 2rem;
 }
 .hero-container h1{
+    max-width: 19rem;
     margin-top: 3rem;
+   
 }
 
 .hero-container p{
-    margin-top:1.5rem;
-    font-size: 0.8rem;
+    max-width: 18rem;
+    margin-top: 2rem;
     line-height: 1.5rem;
-    margin-bottom: 50%;
-}
-.parent-container{
-    position: relative;
-}
-.background-shaded-container{
-    position: absolute;
-    background-image: url("../assets/bg-main-mobile.png");
-    background-repeat: no-repeat;
-    top: -15rem;
-    right:-15rem
-   
+    font-size: 0.8rem;
 }
 
+.background-shaded-container img{
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+   top:-7rem;
+   
+   
+    
+}
 .pattern-1-container{
     display: none;
 }
-
-.pattern-2-container{
-    background-color: black;
-    border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-}
-
-.illustration-app-container img{
-    position: absolute;
-    max-width: 60%;
-    height: auto;
-    top:30%;
-    left:20%;
-}
-
-.premium-eq-main-container{
-    background-color: #FA7453;
-    color: #FCFAF9;
-    border-radius: 10px;
-    
-    position: absolute;
-    bottom: -18%;
+main{
+    max-width:24rem;
+    display: grid;
    
+}
+.pattern-2-container{
+    max-width:24rem;
+    grid-template-columns: repeat(2,fr);
+
+    background-color: black;
+}
+.illustration-app-container{
+    max-width:20rem;
+    grid-template-columns: 1fr;
 
 }
-
-.premium-eq-container{
-  
-    max-width: 70%;
-    margin-left: 2.5rem;
-    margin-right: 1rem;
-    
-}
-.premium-eq-container h1{
-    padding-top: 1.5rem;
-}
-
-.premium-eq-container p{
-    margin-top: 1.5rem;
-    font-size: 0.8rem;
-    line-height: 1.5rem;
-}
-
-@media (min-width:700px) {
-
-    .pattern-1-container{
-        display: block;
-    }  
-    
+.illustration-app-container img{
+    max-width: 100%;
+    height: auto;
 }
