@@ -303,6 +303,25 @@ main{
     margin-bottom: 2rem;
     
 }
+.apple-button:hover{
+    background-color: #66E2DC;
+    cursor: pointer;
+    border: 2px #66E2DC solid;
+    }
+    .android-button{
+        background-color:#FCFAF9;
+        color: black;
+        padding: 0.5rem 1rem;
+        margin-bottom: 2rem;
+        border-radius: 0.5rem;
+        text-align: center;
+        border: 2px solid #FCFAF9;
+    }
+    .android-button:hover{
+        background-color: #FFB964;
+        cursor: pointer;
+        border: 2px solid #FFB964;
+    }
 }
 /* ------------------------------------ Media tablet Query ending------------------------------------------------------------------*/
 /* ------------------------------------ Media desktop Query starting------------------------------------------------------------------*/
@@ -471,5 +490,25 @@ footer p{
     height: 32px;
     margin-left: 1rem;
 }
+
+.apple-button:hover{
+    background-color: #66E2DC;
+    cursor: pointer;
+    border: 2px #66E2DC solid;
+    }
+    .android-button{
+        background-color:#FCFAF9;
+        color: black;
+        padding: 0.5rem 1rem;
+        margin-bottom: 2rem;
+        border-radius: 0.5rem;
+        text-align: center;
+        border: 2px solid #FCFAF9;
+    }
+    .android-button:hover{
+        background-color: #FFB964;
+        cursor: pointer;
+        border: 2px solid #FFB964;
+    }
 
 }
