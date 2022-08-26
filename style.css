@@ -127,6 +127,12 @@ main{
     text-align: center;
     border: 2px solid black;
 }
+
+.apple-button:hover{
+background-color: #66E2DC;
+cursor: pointer;
+border: 2px #66E2DC solid;
+}
 .android-button{
     background-color:#FCFAF9;
     color: black;
@@ -135,6 +141,11 @@ main{
     border-radius: 0.5rem;
     text-align: center;
     border: 2px solid #FCFAF9;
+}
+.android-button:hover{
+    background-color: #FFB964;
+    cursor: pointer;
+    border: 2px solid #FFB964;
 }
 
 /*--------------------------------------- Footer Area Starting -----------------------------------------------------------------------*/
@@ -161,6 +172,11 @@ footer p{
     display: flex;
     justify-content: space-between;
     margin-bottom: 4rem;
+}
+.social-media-icons:hover{
+  color: #FA7453;
+
+    cursor: pointer;
 }
 
 /* ------------------------------------ Media tablet Query starting--------------------------------------------------------------------- */
